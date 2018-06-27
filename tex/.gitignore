@@ -1,0 +1,12 @@
+*.pdf
+*.log
+*.out
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.gz
+.texpadtmp
+*.DS_Store
+*.doc
+*.docx

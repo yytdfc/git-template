@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{multirow}
+\usepackage{multibib}
+\usepackage{tabularx, booktabs}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{colortbl}
+\usepackage{siunitx}
+\usepackage{url}
+\usepackage{hyperref}
+
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+
+\definecolor{darkgreen}{RGB}{0, 125, 0}
+\definecolor{orange}{RGB}{255, 125, 125}
+\definecolor{darkgray}{RGB}{64, 64, 64}
+\newcolumntype{S}{>{\hsize=.3\hsize}X}
+
+\topmargin 0.0cm
+\oddsidemargin 0.2cm
+\textwidth 16cm
+\textheight 21cm
+\footskip 1.0cm
+
+\newenvironment{sciabstract}{%
+\begin{quote} \bf}
+{\end{quote}}
+
+\title{Title}
+\date{}
+
+\author
+{
+Chen Fu$^{1}$\\
+Others$^{2}$
+\\
+\\
+\normalsize{$^{1}$Org1.}
+\\
+\normalsize{$^{2}$Org2.}
+}
+
+\begin{document}
+\maketitle
+
+\input{sections/abstract}
+
+\input{sections/help}
+
+\bibliographystyle{plain}
+\bibliography{main}
+
+\end{document}
